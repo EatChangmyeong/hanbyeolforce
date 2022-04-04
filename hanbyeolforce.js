@@ -190,7 +190,7 @@ function emit_table(safe, frac) {
 				.join(' | ')
 		} |`);
 	console.log();
-	for(let i = 0; i < 23; i++)
+	for(let i = 0; i <= 23; i++)
 		for(let j = i + 2; j <= 25; j++)
 			console.log(`| ${i} -> ${j} | ${
 				lut
@@ -210,7 +210,7 @@ const result_table = [[[[], []], [[], []]], [[[], []], [[], []]]];
 for(const hanbyeolcatch of [false, true])
 	for(const safe of [false, true]) {
 		const t = result_table[+hanbyeolcatch][+safe];
-		for(const x of first_ten_prob.map(x => Rat(100, x)).map(x => hanbyeolcatch ? x.multiply(105, 100) : x)) {
+		for(const x of first_ten_prob.map(x => Rat(100, x)).map(x => hanbyeolcatch ? x.multiply(100, 105) : x)) {
 			t[0].push(x);
 			t[1].push(x);
 		}
