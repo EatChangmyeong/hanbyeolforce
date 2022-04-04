@@ -6,7 +6,7 @@
 
 # 결과 보는 법
 
-실행 결과는 `results.txt`에 미리 저장해 두었습니다.
+실행 결과는 [`results.txt`](https://github.com/EatChangmyeong/hanbyeolforce/blob/main/results.txt)에 미리 저장해 두었습니다.
 
 * `destroy protection off:`부터는 일반 강화만 할 때의 값, `destroy protection on:`부터는 가능하다면 항상 파괴 방지 강화를 할 때의 값입니다.
 * 표 부분은 왼쪽부터 현재의 강화 단계, 강화 횟수의 기댓값, 별조각 개수의 기댓값(한별캐치 미적용), 강화 횟수의 기댓값, 별조각 개수의 기댓값(한별캐치 적용)입니다. 강화 단계 `3`은 3성에서 4성으로 강화한다는 의미, `3 -> 5`는 3성에서 5성으로 강화한다는 의미입니다.
